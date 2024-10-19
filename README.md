@@ -35,4 +35,4 @@ The backend is built with Node.js and serves as an API to handle requests from t
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/sunenergy.git
+   git clone https://github.com/SunenergySystems74/SunEnergySys.git
