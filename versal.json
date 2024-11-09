@@ -1,5 +1,5 @@
 {
-  "builds": [
+  "projects": [
     {
       "src": "sunenergy/package.json",
       "use": "@vercel/static-build",
@@ -8,12 +8,12 @@
       }
     },
     {
-      "src": "backend/api/**/*.js",
+      "src": "backend/api.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/backend/api/$1" },
+    { "src": "/api/(.*)", "dest": "/backend/api.js" },
     { "src": "/(.*)", "dest": "/sunenergy/build/$1" }
   ]
 }
