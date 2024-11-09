@@ -14,6 +14,6 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/backend/api/$1" },
-    { "src": "/(.*)", "dest": "/sunenergy/$1" }
+    { "src": "/(.*)", "dest": "/sunenergy/build/$1" }
   ]
 }
