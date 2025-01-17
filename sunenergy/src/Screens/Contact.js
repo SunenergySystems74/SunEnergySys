@@ -21,7 +21,10 @@ const Contact = () => {
     e.preventDefault();
 
     axios
-      .post("http://localhost:5000/send-email", formData)
+      .post(
+        "https://sunenergysystem-lbihyevv5-sunenergysystems74s-projects.vercel.app/send-email",
+        formData
+      )
       .then((response) => {
         setResponseMessage("Message sent successfully!");
       })
